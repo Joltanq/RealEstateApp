@@ -6,9 +6,27 @@
     xmlns:local="clr-namespace:RealEstateApp"
     Title="RealEstateApp">
 
-    <ShellContent
+    <TabBar>
+        <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+
+        <ShellContent
+        Title="Settings"
+        ContentTemplate="{DataTemplate local:Settings}"
+        Route="Settings" />
+
+        <ShellContent
+        Title="Settings"
+        ContentTemplate="{DataTemplate local:ViewAllListings}"
+        Route="Settings" />
+        
+        <ShellContent
+        Title="Settings"
+        ContentTemplate="{DataTemplate local:ListingDetails}"
+        Route="Settings" />
+    </TabBar>
+
 
 </Shell>
