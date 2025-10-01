@@ -18,14 +18,14 @@
         Route="Settings" />
 
         <ShellContent
-        Title="Settings"
+        Title="View All Listings"
         ContentTemplate="{DataTemplate local:ViewAllListings}"
-        Route="Settings" />
+        Route="View All Listings" />
         
         <ShellContent
-        Title="Settings"
+        Title="Listing Details"
         ContentTemplate="{DataTemplate local:ListingDetails}"
-        Route="Settings" />
+        Route="Listing Details" />
     </TabBar>
 
 
