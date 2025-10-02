@@ -15,9 +15,9 @@
 
                 <Entry Placeholder="Postcode"/>
                 <Entry Placeholder="State"/>
-            <Button x:Name="ViewAllListingsSearch" BackgroundColor="Red" HorizontalOptions="Fill"/>
 
         </StackLayout>
+            <Button x:Name="ViewAllListingsSearch" Text="Search!" BackgroundColor="Red" HorizontalOptions="Fill" />
 
 
             <!-- this shows the listings -->
