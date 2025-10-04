@@ -65,13 +65,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="ListingDetails.xaml">
+	  <MauiXaml Update="Views\ListingDetails.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Settings.xaml">
+	  <MauiXaml Update="Views\Settings.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ViewAllListings.xaml">
+	  <MauiXaml Update="Views\ViewAllListings.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

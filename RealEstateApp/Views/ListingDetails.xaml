@@ -10,6 +10,8 @@
         <Button x:Name="ListingDetailsBackToAll" Text="Back to Lisings page"/>
 
 
+
+
         <!-- this shows the listings -->
         <StackLayout Orientation="Horizontal"
                       Spacing="15"
@@ -22,25 +24,6 @@
                     VerticalOptions="Center" />
         </StackLayout>
 
-        <StackLayout Orientation="Horizontal"
-                      Spacing="15"
-                      BackgroundColor="AliceBlue"
-                      Padding="10">
-
-            <Label Text="This is details for the property"
-                    FontSize="18"
-                    VerticalOptions="Center" />
-        </StackLayout>
-
-        <StackLayout Orientation="Horizontal"
-                      Spacing="15"
-                      BackgroundColor="AliceBlue"
-                      Padding="10">
-
-            <Label Text="Table for school stuff"
-                    FontSize="18"
-                    VerticalOptions="Center" />
-        </StackLayout>
 
 
     </StackLayout>
